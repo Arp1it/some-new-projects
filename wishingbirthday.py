@@ -3,8 +3,9 @@ import datetime
 import smtplib
 
 
-GMAIL_ID = 'jaiarpit123@gmail.com'
-GMAIL_PASSWORD = 'ddad dmal lrkp hbua'
+# Add your gmail id and password here.
+GMAIL_ID = ''
+GMAIL_PASSWORD = ''
 
 def sendEmail(to, sub, msg):
     # print(f"Email to {to} send with subject: {sub} and message {msg}")
